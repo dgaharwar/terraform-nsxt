@@ -8,12 +8,10 @@ terraform {
     }
   }
 }
-variable "nsx_ip" {
-    default = "172.16.10.117"
-}
-variable "nsx_password" {
-    default = "VMware1!VMware1!"
-}
+variable "nsx_ip" {}
+
+variable "nsx_password" {}
+
 variable "nsxt_logical_tier1_router_name" {
     default = "terraformdemo-t1"
 }
